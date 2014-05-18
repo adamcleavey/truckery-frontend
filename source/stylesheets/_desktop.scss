@@ -1,0 +1,22 @@
+@media screen and (min-width: 1024px){
+  body {
+    width: 80%;
+    .heading-block {
+      span {
+        font-size: $lg-heading-size;
+      }
+      img {
+        height: $lg-heading-size;
+        width: $lg-heading-size;
+        margin: 0 10px -10px 10px;
+      }
+    }
+    .ad-block {
+      .large-ad {
+        img {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}

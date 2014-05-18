@@ -1,0 +1,15 @@
+@media screen and (min-width: 1440px){
+  body {
+    width: 70%;
+    .heading-block {
+      span {
+        font-size: $xl-heading-size;
+      }
+      img {
+        height: $xl-heading-size;
+        width: $xl-heading-size;
+        margin: 0 10px -10px 10px;
+      }
+    }
+  }
+}

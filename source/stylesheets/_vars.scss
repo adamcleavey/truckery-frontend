@@ -1,0 +1,8 @@
+$lg-heading-size: 84px;
+$xl-heading-size: 96px;
+$tab-height: 2.8em;
+$section-transition: all 250ms ease;
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

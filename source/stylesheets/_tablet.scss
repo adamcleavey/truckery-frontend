@@ -1,0 +1,38 @@
+@media screen and (min-width: 767px){
+  body {
+    width: 90%;
+    margin: 0 auto;
+    .heading-block {
+      height: auto;
+    }
+    .ad-block {
+      .small-ad {
+        display: none;
+      }
+      .large-ad {
+        display: block;
+        width: 728px;
+        margin: 5px auto;
+        padding: 5px 0;
+        img {
+          margin-left: -20px;
+        }
+      }
+    }
+    .container {
+      article.tabs {
+        section {
+          h2 {
+            a {
+              span.tab-name {
+                display: inline-block;
+                height: 100%;
+                margin-left: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
