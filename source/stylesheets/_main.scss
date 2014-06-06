@@ -3,7 +3,7 @@ body {
   .heading-block {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     height: 50px;
     img {
       width: 40px;
@@ -93,14 +93,15 @@ body {
         } 
         h2 {
         	position: absolute;
-        	font-size: 1em;
+          font-family: HelveticaNeue-Light;
+        	font-size: 1.1em;
         	font-weight: normal;
         	width: 33%;
         	height: $tab-height;
         	top: -($tab-height);
         	left: 0px;
         	padding: 0;
-          padding-top: 5px;
+          padding-top: 8px;
         	margin: 0;
         	color: #999;
         	background-color: #ddd;
@@ -115,6 +116,29 @@ body {
           	outline: 0 none;
             .tab-name {
               display: none;
+            }
+          }
+        }
+        &#tab1 {
+          width: 100%;
+          height: auto;
+          .module-container {
+            .module-location {
+              width: 100%;
+              float: left;
+              margin-right: 10px;
+              margin-bottom: 10px;
+              padding: 15px;
+              border-radius: 5px;
+              border: 1px solid grey;
+              .location-name {
+                padding: 0 10px 15px 10px;
+                font-family: HelveticaNeue-Light;
+                text-align: center;
+                font-size: 1.25em;
+                border-bottom: 1px solid grey;
+                margin-bottom: 15px;
+              }
             }
           }
         }
