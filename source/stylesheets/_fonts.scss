@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Lobster|Oswald:400,700;);
 
 body {
   font-family: sans-serif;
@@ -7,4 +7,10 @@ body {
   span {
     font-family: Lobster;
   }
+}
+.loc-name {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
 }
