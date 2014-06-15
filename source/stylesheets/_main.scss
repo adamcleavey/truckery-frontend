@@ -82,13 +82,8 @@ body {
         }
         &:nth-child(2) {
           h2 {
-            left: 33.6%;
-          }
-        }
-        &:nth-child(3) {
-          h2 {
             left: 100%;
-            margin-left: -33%;
+            margin-left: -49.75%;
           }
         } 
         h2 {
@@ -96,7 +91,7 @@ body {
           font-family: HelveticaNeue-Light;
         	font-size: 1.1em;
         	font-weight: normal;
-        	width: 33%;
+        	width: 49.75%;
         	height: $tab-height;
         	top: -($tab-height);
         	left: 0px;
